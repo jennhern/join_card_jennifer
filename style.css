@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+    height: 100vh;
+    background-color: hsl(204, 43%, 93%)
+}
+.card{
+    width: 700px;
+    margin: 100px auto;
+    border-radius: 10px;
+      background-color: white;
+      overflow: hidden;
+    
+}
+
+.join{
+    padding: 30px 50px 30px ;
+}
+.title_card{
+    font-family: 'Karla', sans-serif;
+    font-weight:700;
+    color:hsl(179, 62%, 43%);
+    padding-bottom: 10px;
+}
+.subtitle_card{
+    font-family: 'Karla', sans-serif;
+    color:hsl(71, 73%, 54%);
+
+}
+.text_card{
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    color:  hsl(218, 22%, 67%)
+}
+.body_card{
+    display: flex;
+    justify-content:space-between;
+}
+.monthly_box{
+    background-color:  hsl(179, 62%, 43%) ;
+    width: 350px;
+    
+}
+.title_monthly,
+.title_why{
+    font-family: 'Karla', sans-serif;
+    color:white;
+   padding:30px 50px 0px;
+    font-size: 19px;
+    font-weight: 700;
+
+}
+.money_span{
+    color: white;
+    font-size: 30px;
+    font-family: 'Karla', sans-serif;
+    padding-left: 50px;
+}
+.money{
+    color: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+}
+.monthly{
+    font-family: 'Karla', sans-serif;
+    color: hsl(204, 43%, 93%);
+    padding-left: 50px;
+    font-size: 16px;
+}
+
+.boton{
+    background-color:hsl(71, 73%, 54%);
+    text-align: center;
+    display:block;
+    justify-items: center;
+    margin:30px 50px 40px;
+    padding: 15px 40px;
+    border-radius: 5px;   
+}
+
+.boton_subs{
+    font-family: 'Karla', sans-serif;
+    color: hsl(204, 43%, 93%);
+   text-decoration: none;
+   padding:10px 40px;
+}
+
+.why{
+    background-color:  hsl(179, 62%, 43%) ;
+    opacity: 0.8;
+    width: 350px;
+}
+.list_why{
+    padding-left: 50px;
+}
+.items_list{
+    color: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+    list-style-type: none;
+    line-height: 22px;
+    font-size: 14px;
+}
+footer{
+    text-align: center;
+}
